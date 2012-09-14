@@ -1,0 +1,259 @@
+
+@import "variables/colors";
+@import "variables/sizes";
+@import url("../css/fonts/stylesheet.css");
+
+.boxRadius {
+-moz-border-radius-topleft: 18px; -moz-border-radius-topright: 18px; -moz-border-radius-bottomright: 18px; -moz-border-radius-bottomleft: 18px;
+}
+
+
+  /**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
+
+body {
+    padding: 10px;
+    background-image: url(/wp-content/themes/isotope_soap/img/19.gif);
+    background-repeat: repeat;
+}
+#masthead {
+  display: block;
+  color: black;
+  float: right;
+  height: 340px;
+  padding: 10px;
+  width: $widePost;
+  margin: 10px;
+  font-family: "Myriad Pro", "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+article {
+  @extend .sagen;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    background: white;
+    -moz-box-shadow: 5px 5px 3px #727272;
+    -webkit-box-shadow: 5px 5px 3px #727272;
+    box-shadow: 5px 5px 3px #727272;
+    .entry-title {
+      font-size: 24px;
+    }
+  .entry-content {
+    padding: 0 0 5px 0;
+    margin: 0px;
+  }
+}
+
+.single-post {
+  .format-standard {
+  }
+  #nav-below {
+    display: none;
+  }
+  article {
+    float: left;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    .entry-header {
+
+    }
+  }
+}
+
+.site-content {
+#nav-below {
+  clear: both;
+}
+}
+
+#secondary {
+    display:none;
+}
+footer {
+    display: block;
+    clear: both;
+}
+
+h1.site-title {
+    /*margin-top: 192px;*/
+    text-align: center;
+    width: 243px;
+}
+
+h1.site-title a {
+    font-size: 36px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #222;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+
+.menu-item a {
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #222;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+h2.site-description {
+    font-size: 28px;
+    display: none;
+}
+
+a {
+    color: #005580;
+}
+
+a:hover {
+    color: #0088CC;
+    text-decoration: none;
+}
+a:visited {
+    color: #005580;
+}
+
+.format-aside {
+    @extend .boxRadius;
+    width: $widePost;
+    background-color: $lightBrown;
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-link {
+    @extend .boxRadius;
+    width: $widePost;
+    color: $darkGreen;
+    background-color: $lightGreen;
+/*    background-image:url("/wp-content/themes/isotope_soap/img/link.png");
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;*/
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-status {
+    width: $widePost;
+    border: 1px solid $darkBlue;
+    color: $darkBlue;
+    background-color: $lightBlue; -moz-border-radius-topleft: 18px; -moz-border-radius-topright: 18px; -moz-border-radius-bottomright: 18px; -moz-border-radius-bottomleft: 18px;
+    .entry-title {
+      display: none;
+    }
+    .entry-meta {
+      font-size: 10px;
+      position: absolute;
+      bottom: 3px;
+      right: 5px;
+    }
+}
+.format-gallery {
+    width: $widePost;
+    /*border: 1px solid #8b4513;*/
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-image {
+    width: $widePost;
+    /*border: 1px solid #2f4f4f;*/
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-standard {
+    width: $widePost;
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+footer.entry-meta{
+    display: none;
+}
