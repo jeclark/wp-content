@@ -171,6 +171,7 @@ a:visited {
 .format-aside {
     @extend .boxRadius;
     width: $widePost;
+    background-color: $lightBrown;
     text-shadow: 1px 1px 1px #b2b9a3;
     background-image: url(/wp-content/themes/isotope_soap/img/Aside_bg.jpg);
     background-repeat: no-repeat;
