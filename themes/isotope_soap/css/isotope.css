@@ -100,11 +100,14 @@ article .entry-content {
   margin: 0px;
 }
 
-/* line 101, ../sass/isotope.scss */
-.single-post #nav-below {
-  display: none;
+/* line 99, ../sass/isotope.scss */
+.single-post .format-standard {
   background: white;
   background-image: none;
+}
+/* line 103, ../sass/isotope.scss */
+.single-post #nav-below {
+  display: none;
 }
 /* line 106, ../sass/isotope.scss */
 .single-post article {

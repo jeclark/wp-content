@@ -23,7 +23,7 @@
       <file leaf-file-name="isotope.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="26" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5652174">
+            <state line="100" column="27" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.5">
               <folding />
             </state>
           </provider>
@@ -402,7 +402,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="970" />
+      <option name="time" value="972" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -509,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="26" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5652174">
+        <state line="100" column="27" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.5">
           <folding />
         </state>
       </provider>
