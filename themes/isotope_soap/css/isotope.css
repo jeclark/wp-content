@@ -103,38 +103,40 @@ article .entry-content {
 /* line 101, ../sass/isotope.scss */
 .single-post #nav-below {
   display: none;
+  background: white;
+  background-image: none;
 }
-/* line 104, ../sass/isotope.scss */
+/* line 106, ../sass/isotope.scss */
 .single-post article {
   float: left;
   margin-top: 28px;
   margin-bottom: 28px;
 }
 
-/* line 115, ../sass/isotope.scss */
+/* line 117, ../sass/isotope.scss */
 .site-content #nav-below {
   clear: both;
 }
 
-/* line 120, ../sass/isotope.scss */
+/* line 122, ../sass/isotope.scss */
 #secondary {
   display: none;
 }
 
-/* line 123, ../sass/isotope.scss */
+/* line 125, ../sass/isotope.scss */
 footer {
   display: block;
   clear: both;
 }
 
-/* line 128, ../sass/isotope.scss */
+/* line 130, ../sass/isotope.scss */
 h1.site-title {
   /*margin-top: 192px;*/
   text-align: center;
   width: 243px;
 }
 
-/* line 134, ../sass/isotope.scss */
+/* line 136, ../sass/isotope.scss */
 h1.site-title a {
   font-size: 36px;
   -webkit-background-clip: text;
@@ -144,7 +146,7 @@ h1.site-title a {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
-/* line 144, ../sass/isotope.scss */
+/* line 146, ../sass/isotope.scss */
 .menu-item a {
   font-size: 14px;
   font-weight: bold;
@@ -155,35 +157,35 @@ h1.site-title a {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
-/* line 154, ../sass/isotope.scss */
+/* line 156, ../sass/isotope.scss */
 h2.site-description {
   font-size: 28px;
   display: none;
 }
 
-/* line 159, ../sass/isotope.scss */
+/* line 161, ../sass/isotope.scss */
 a {
   color: #005580;
 }
 
-/* line 163, ../sass/isotope.scss */
+/* line 165, ../sass/isotope.scss */
 a:hover {
   color: #0088CC;
   text-decoration: none;
 }
 
-/* line 167, ../sass/isotope.scss */
+/* line 169, ../sass/isotope.scss */
 a:visited {
   color: #005580;
 }
 
-/* line 171, ../sass/isotope.scss */
+/* line 173, ../sass/isotope.scss */
 .format-standard {
   background-image: url(/wp-content/themes/isotope_soap/img/standard_bg.jpg);
   background-repeat: no-repeat;
 }
 
-/* line 176, ../sass/isotope.scss */
+/* line 178, ../sass/isotope.scss */
 .format-aside {
   width: 285px;
   background-color: #f2ebc0;
@@ -192,11 +194,11 @@ a:visited {
   background-repeat: no-repeat;
   border-color: #b2b9a3;
 }
-/* line 184, ../sass/isotope.scss */
+/* line 186, ../sass/isotope.scss */
 .format-aside .entry-title {
   display: none;
 }
-/* line 187, ../sass/isotope.scss */
+/* line 189, ../sass/isotope.scss */
 .format-aside .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -204,7 +206,7 @@ a:visited {
   right: 5px;
 }
 
-/* line 195, ../sass/isotope.scss */
+/* line 197, ../sass/isotope.scss */
 .format-video {
   width: 285px;
   text-shadow: 1px 1px 1px #b2b9a3;
@@ -212,11 +214,11 @@ a:visited {
   background-repeat: repeat-y;
   border-color: #b2b9a3;
 }
-/* line 202, ../sass/isotope.scss */
+/* line 204, ../sass/isotope.scss */
 .format-video .entry-title {
   display: none;
 }
-/* line 205, ../sass/isotope.scss */
+/* line 207, ../sass/isotope.scss */
 .format-video .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -224,7 +226,7 @@ a:visited {
   right: 5px;
 }
 
-/* line 213, ../sass/isotope.scss */
+/* line 215, ../sass/isotope.scss */
 .format-audio {
   width: 285px;
   text-shadow: 1px 1px 1px #b2b9a3;
@@ -232,11 +234,11 @@ a:visited {
   background-repeat: repeat-y;
   border-color: #b2b9a3;
 }
-/* line 220, ../sass/isotope.scss */
+/* line 222, ../sass/isotope.scss */
 .format-audio .entry-title {
   display: none;
 }
-/* line 223, ../sass/isotope.scss */
+/* line 225, ../sass/isotope.scss */
 .format-audio .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -244,7 +246,7 @@ a:visited {
   right: 5px;
 }
 
-/* line 231, ../sass/isotope.scss */
+/* line 233, ../sass/isotope.scss */
 .format-link {
   width: 285px;
   color: #4f8a10;
@@ -253,11 +255,11 @@ a:visited {
   background-position: -5px -5px;
   background-repeat: no-repeat;
 }
-/* line 239, ../sass/isotope.scss */
+/* line 241, ../sass/isotope.scss */
 .format-link .entry-title {
   display: none;
 }
-/* line 242, ../sass/isotope.scss */
+/* line 244, ../sass/isotope.scss */
 .format-link .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -265,7 +267,7 @@ a:visited {
   right: 5px;
 }
 
-/* line 250, ../sass/isotope.scss */
+/* line 252, ../sass/isotope.scss */
 .format-status {
   width: 285px;
   color: #005580;
@@ -278,11 +280,11 @@ a:visited {
   background-position: -80px -55px;
   background-repeat: no-repeat;
 }
-/* line 257, ../sass/isotope.scss */
+/* line 259, ../sass/isotope.scss */
 .format-status .entry-title {
   display: none;
 }
-/* line 260, ../sass/isotope.scss */
+/* line 262, ../sass/isotope.scss */
 .format-status .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -290,16 +292,16 @@ a:visited {
   right: 5px;
 }
 
-/* line 267, ../sass/isotope.scss */
+/* line 269, ../sass/isotope.scss */
 .format-gallery {
   width: 285px;
   /*border: 1px solid #8b4513;*/
 }
-/* line 270, ../sass/isotope.scss */
+/* line 272, ../sass/isotope.scss */
 .format-gallery .entry-title {
   display: none;
 }
-/* line 273, ../sass/isotope.scss */
+/* line 275, ../sass/isotope.scss */
 .format-gallery .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -307,16 +309,16 @@ a:visited {
   right: 5px;
 }
 
-/* line 281, ../sass/isotope.scss */
+/* line 283, ../sass/isotope.scss */
 .format-image {
   width: 285px;
   /*border: 1px solid #2f4f4f;*/
 }
-/* line 284, ../sass/isotope.scss */
+/* line 286, ../sass/isotope.scss */
 .format-image .entry-title {
   display: none;
 }
-/* line 287, ../sass/isotope.scss */
+/* line 289, ../sass/isotope.scss */
 .format-image .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -324,11 +326,11 @@ a:visited {
   right: 5px;
 }
 
-/* line 295, ../sass/isotope.scss */
+/* line 297, ../sass/isotope.scss */
 .format-standard {
   width: 285px;
 }
-/* line 297, ../sass/isotope.scss */
+/* line 299, ../sass/isotope.scss */
 .format-standard .entry-meta {
   font-size: 10px;
   position: absolute;
@@ -336,7 +338,7 @@ a:visited {
   right: 5px;
 }
 
-/* line 304, ../sass/isotope.scss */
+/* line 306, ../sass/isotope.scss */
 footer.entry-meta {
   display: none;
 }
