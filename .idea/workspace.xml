@@ -23,7 +23,7 @@
       <file leaf-file-name="isotope.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="18" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.38403615">
+            <state line="173" column="36" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.50301206">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file leaf-file-name="_colors.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/variables/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+            <state line="8" column="20" selection-start="180" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="_sizes.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/variables/_sizes.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="18" selection-end="27" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +119,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
     <option name="y" value="27" />
     <option name="width" value="1381" />
     <option name="height" value="873" />
@@ -325,7 +324,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="27" width="1381" height="873" extended-state="0" />
+    <frame x="0" y="27" width="1381" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -403,7 +402,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="908" />
+      <option name="time" value="950" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -449,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/isotope_soap/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-6.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="0" selection-start="3267" selection-end="3267" vertical-scroll-proportion="-14.625">
@@ -470,23 +462,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/isotope_soap/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="34" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-6.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/variables/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="180" selection-end="186" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/variables/_sizes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="18" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="18" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.38403615">
+        <state line="173" column="36" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.50301206">
           <folding />
         </state>
       </provider>
