@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="isotope.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="isotope.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="19" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.2173913">
+            <state line="196" column="19" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/isotope_soap/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="56" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
+            <state line="56" column="55" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.3918919">
               <folding />
             </state>
           </provider>
@@ -110,10 +110,10 @@
         <option value="$PROJECT_DIR$/themes/isotope_soap/content-single.php" />
         <option value="$PROJECT_DIR$/themes/isotope_soap/header.php" />
         <option value="$PROJECT_DIR$/themes/isotope_soap/functions.php" />
-        <option value="$PROJECT_DIR$/themes/isotope_soap/footer.php" />
         <option value="$PROJECT_DIR$/themes/isotope_soap/sass/variables/_colors.scss" />
         <option value="$PROJECT_DIR$/themes/isotope_soap/sass/variables/_sizes.scss" />
         <option value="$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss" />
+        <option value="$PROJECT_DIR$/themes/isotope_soap/footer.php" />
       </list>
     </option>
   </component>
@@ -402,7 +402,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="964" />
+      <option name="time" value="968" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -479,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/isotope_soap/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="56" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="34" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
@@ -509,7 +502,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/isotope_soap/sass/isotope.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="19" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.2173913">
+        <state line="196" column="19" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/isotope_soap/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="55" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.3918919">
           <folding />
         </state>
       </provider>

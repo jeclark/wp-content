@@ -54,7 +54,7 @@ jQuery.Isotope.prototype._masonryReset = function() {
         console.log(allArticles.length);
         if(allArticles.length == 1) {
             console.log(allArticles.width());
-            allArticles.width(this.element.width() - 340)
+            allArticles.width(this.element.width() - 360)
             console.log(allArticles.width());
         }
     }
