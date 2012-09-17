@@ -168,6 +168,11 @@ a:visited {
     color: #005580;
 }
 
+.format-standard {
+  background-image: url(/wp-content/themes/isotope_soap/img/standard_bg.jpg);
+  background-repeat: no-repeat;
+}
+
 .format-aside {
     @extend .boxRadius;
     width: $widePost;
@@ -175,6 +180,42 @@ a:visited {
     text-shadow: 1px 1px 1px #b2b9a3;
     background-image: url(/wp-content/themes/isotope_soap/img/Aside_bg.jpg);
     background-repeat: no-repeat;
+  border-color: #b2b9a3;
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-video {
+  @extend .boxRadius;
+  width: $widePost;
+  text-shadow: 1px 1px 1px #b2b9a3;
+  background-image: url(/wp-content/themes/isotope_soap/img/video_bg.jpg);
+  background-repeat: repeat-y;
+  border-color: #b2b9a3;
+  .entry-title {
+    display: none;
+  }
+  .entry-meta {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+  }
+}
+
+.format-audio {
+  @extend .boxRadius;
+  width: $widePost;
+  text-shadow: 1px 1px 1px #b2b9a3;
+  background-image: url(/wp-content/themes/isotope_soap/img/audio_bg.jpg);
+  background-repeat: repeat-y;
   border-color: #b2b9a3;
   .entry-title {
     display: none;
